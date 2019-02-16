@@ -1,0 +1,135 @@
+body {
+  background: #eaeaea;
+}
+
+.CoinsMonitor {
+  text-align: center;
+}
+
+.header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+.footer {
+  background-color: #222;
+  padding: 20px 0;
+  bottom: 0px;
+  color: #fff;
+  width: 100%;
+}
+
+.footer span p {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer a {
+  color: #f34e4e;
+}
+
+.currentValue {
+  margin-bottom: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.currentValue input {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 80%;
+  max-width: 300px;
+  background-color: transparent;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-family: 'Work Sans';
+  font-weight: 300;
+  letter-spacing: -3px;
+  line-height: 50px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px dashed #C2CAE8;
+  resize: none;
+  transition: all 0.5s ease-out;
+  margin-bottom: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.currencies {
+  margin: 0px;
+  padding: 0px;
+}
+
+.currencies ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.currencies li {
+  list-style: none;
+  padding: 15px;
+  cursor: pointer;
+  background: #222222;
+  border: 1px solid;
+  color: white;
+}
+
+.currentCoin {
+  margin-top: 10px;
+  display: block;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 27px;
+  letter-spacing: -3px;
+  text-align: center;
+  color: #34c850;
+}
+
+.donate {
+  padding: 0px;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.box {
+  width: 24%;
+  float: left;
+  border: 1px solid;
+  margin: 5px;
+  height: 200px;
+}
+
+.symbol {
+  color: #34c850;
+}
+
+@media (max-width:768px){
+  .box {
+    margin-bottom: 20px;
+    width: 95%;
+    display: inline-block;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
